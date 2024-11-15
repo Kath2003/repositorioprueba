@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Formulario Completo</title>
+<link rel="stylesheet" type="text/css" href="CSS/styles2.css">
+</head>
+<body>
+
+	<form>
+		 <fieldset>
+            <h1>Información Personal</h1>
+            <label for="Last name"> Last name:</label>
+            <input type="text" id="Last name" Last name="Last name" required>
+
+            <label for="age">Date:</label>
+            <input type="age" id="age" name="age" required>
+
+            <label for="password">Login:</label>
+            <input type="password" id="password" name="password" required>	
+        </fieldset>
+
+        <fieldset>
+        	 <label for="name">User name:</label>
+        	 <input type="text" id="name" name="name" required>
+
+        	 <label for="email">Electronic mail:</label>
+        	 <input type="email" id="email" name="email" required>
+        </fieldset>
+
+        <fieldset>
+        	 <legend>Favorites</legend>
+        	 <label>Género:</label>
+        	 <label for="masculino">Masculino</label>
+        	 <input type="radio" id="masculino" name="género" value="masculino">
+        	 <label for="femenino">Femenino</label>
+        	 <input type="radio" id="femenino" name="género" value="femenino">
+
+        </fieldset>
+           <br>
+        <fieldset>
+        	<label for="pais">País:</label>
+        	<select id="pais" name="pais">
+        	    <option value="finland">Finland</option>
+        	    <option value="tokyo">Tokyo</option>
+        	    <option value="netherlands">Netherlands</option>
+        	    <option value="greece">Greece</option>
+        	</select>
+        </fieldset>
+
+        <fieldset>
+
+        	<label for="comentarios">Deja tus comentarios:</label>
+        	<textarea id="comentarios" name="comentarios" rows="4"></textarea>
+        </fieldset>
+
+        <button type="submit">Enviar</button>
+</form>
+
+</body>
+</html>
